@@ -114,14 +114,7 @@ mysql_databases: []
 
 # Users.
 mysql_users: 
-  - name: dbteam
-    host: "%"
-    password: icsdbteam26
-    priv: "*.*:USAGE"
-  - name: phpmyadmin
-    host: "%"
-    password: icsdbgui26
-    priv: "*.*:USAGE"
+
 #   - name: example
 #     host: 127.0.0.1
 #     password: secret
